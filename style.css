@@ -23,7 +23,7 @@
 .container .content h2 {
   color: hsl(220, 100%, 20%);
   display: flex;
-  align-items: center;  
+  justify-content: center;
   margin-bottom: 20px;
 }
 .row{
