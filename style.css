@@ -21,7 +21,8 @@
   border-radius: 10px;
 }
 .container .content h2 {
-  color: hsl(220, 100%, 20%);
+  color:#1d2f73;
+  /* background:transparent; */
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
@@ -29,7 +30,7 @@
 .row{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; 
   background: white;
   border-radius: 30px;
   padding-left: 20px;
@@ -46,8 +47,18 @@
   border: none;
   cursor: pointer;
   padding: 12px 40px;
-  background:hsl(24, 100%, 45%);
-  color: #fff;
+  background:hsl(27, 100%, 45%);
+  color: #ffffff;
   border-radius: 30px;
   font-size: 16px;
 }
+#list-container li button{
+  border: none;
+  cursor: pointer;
+  padding: 2px 6px;
+  background:hsl(212, 100%, 45%);
+  color: #fff;
+  border-radius: 30px;
+  font-size: 13px;
+}
+

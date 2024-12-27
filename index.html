@@ -4,21 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-do List</title>
+    <title>Taskly</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
         <div class="content">
-            <h2>To-Do List📋</h2>
+            <h2>Taskly</h2>
             <div class="row">
                 <input type="text" placeholder="Add your task" id="display">
                 <button id="btn" onclick="addElement()">Add</button>
             </div>
+            <h3>Tasks</h3>
             <ul id="list-container">
                 <li>hello
-                    <button onclick="removeElement(event)" id="button_del">delete </button>
+                    <button onclick="removeElement(event)" id="button_del">X</button>
                 </li>
             </ul>
         </div>
@@ -31,7 +32,7 @@
 
         function addElement(){
             var value = document.createElement("li")
-            value.innerHTML = input.value +"<button onclick = 'removeElement(event)'>delete</button>"
+            value.innerHTML = input.value +"<button onclick = 'removeElement(event)'>X</button>"
             list.append(value)
         }
 
